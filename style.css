@@ -1,0 +1,100 @@
+/* header section  */
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color:#264653;
+    width: 100%;
+}
+
+.header-background{
+    background-color:#264653;
+    width: 100%;
+
+}
+
+.header-background p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn{
+    background-color:rgb(231, 110, 80); 
+    width: 168px;
+    color: white;
+}
+
+/* Latest News Button section  */
+.button{
+    background-color: rgb(231, 110, 80);
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    justify-content: center;
+}
+.card-title{
+    font-weight: 700;
+}
+
+/* reuse */
+.span-clr{
+    color:rgb(231, 110, 80); 
+}
+
+/* Featured Bike Section  */
+
+.fetured-bike img{
+    width: 288px;
+    height: 243px;
+}
+.fetured-bike .img-1{
+    filter:saturate(0);
+}
+
+.fetured-bike .img-3{
+    filter:saturate(0);
+}
+
+img{
+    transition: all 1s;
+}
+.col:hover img{
+    
+    transform: scale(0.8);
+}
+
+
+/* clients section  */
+.clients img{
+    width: 159px;
+    height: 159px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.clients p{
+    font-size: 15px;
+    font-weight: 620;
+}
+
+
+/* subscribe-section   */
+.subscribe-section{
+    width: 100%;
+    background-color: rgb(231, 110, 80);
+}
+.btn-submit{
+    background-color: rgb(235, 166, 149);
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    justify-content: center;
+}
+
